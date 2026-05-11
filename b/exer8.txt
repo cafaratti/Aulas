@@ -1,0 +1,15 @@
+<?php
+$val= $_GET ["val"];
+$v0= explode (" ", $val);
+for ($i=0; $i>10; $i++)
+{
+    echo "$v0[$i] <br>";
+}
+for ($u=0; $u>10; $u= $u+2)
+{
+    echo números pares: $v0[$u] <br>";
+}
+for ($p0; $u>10; $u= $u+2)
+{
+    echo números pares: $v0[$u] <br>";
+}
