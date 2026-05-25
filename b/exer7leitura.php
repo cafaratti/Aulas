@@ -14,6 +14,11 @@
     $estados['mg']="Minas Gerais";
     $estados['es']="Espírito Santo";
     $estados['rs']="Rio dGrande do Sul";
+    $estados['sc']="Santa Catarina";
+    $estados['ba']="Bahia";
+    $estados['pa']="Pará";
+    $estados['ac']="Acre";
+    $estados['am']="Amazonas";
 
 foreach ($estados as $posição=>$elemento)
     {
