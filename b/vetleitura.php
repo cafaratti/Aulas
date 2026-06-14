@@ -7,9 +7,29 @@
 </head>
 <body>
 <?php
+$acertos=0;
 $numero= $_GET["questoes"];
-$gabarito= $_GET["gabarito"];
-$candidato= $_GET["candidato"];
-
+$gab= $_GET["gabarito"];
+$cand= $_GET["candidato"];
+$gabarito= explode (",", $gab);
+$candidato= explode (",", $cand);
+echo"Número de questões: $numero<br>";
+for ($i=0; $i<$numero; $i++)
+{
+	if ($candidato[$i]==$gabarito[$i])
+	{
+		$acertos++;
+	}
+}
+for ($b=0; $b<$numero; $b++)
+{
+	echo "Gabarito: $gabarito[$b] <br>";
+}
+for ($c=0; $c<$numero; $c++)
+{
+	echo "Resposta candidato: $candidato[$c]<br>";
+}
+echo "Acertos: $acertos";
+?>
 </body>
 </html>

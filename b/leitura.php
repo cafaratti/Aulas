@@ -12,7 +12,7 @@
         $quant= $_GET ["quant"];
         for ($i=0; $i<$quant; $i++)
             {
-                echo "<input type='text' name='notas[]' placeholder='digite a nota o aluno $i'>";
+                echo "<input type='text' name='notas[]' placeholder='digite a nota do aluno $i'>";
             }
         ?>
     <input type="submit" value="enviar">

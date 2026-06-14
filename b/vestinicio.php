@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="vestleitura.php" method="get">
+    <form action="vetleitura.php" method="get">
     Número de questões: <input type="text" name="questoes">
     Gabarito: <input type="text" name="gabarito">
     Gabarito candidato: <input type="text" name="candidato">
