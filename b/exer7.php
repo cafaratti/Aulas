@@ -1,4 +1,17 @@
 <?php
+<<<<<<< HEAD
+$vet3= [];
+$val1= $_GET ["val1"];
+$val2= $_GET ["val2"];
+$vet1= explode (" ", $val1);
+$vet2= explode (" ", $val2);
+for ($i=0; $i<4; $i++)
+{
+	$vet3[$i] = $vet1 [$i] + $vet2 [3-$i];
+    print_r ("$vet3[$i] <br>");
+}
+
+=======
 $b1= $_GET ["v1"];
 $b2= $_GET ["v2"];
 $v1= explode (" ", $b1);
@@ -24,4 +37,5 @@ for ($i=0; $i<5; $i++)
         echo "$v3[$i] ";
         $o= $o-1;
     }
+>>>>>>> d4be8151fef16a12d120c3125b94bd6ba1e85b75
 ?>
