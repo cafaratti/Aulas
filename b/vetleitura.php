@@ -23,12 +23,9 @@ for ($i=0; $i<$numero; $i++)
 }
 for ($b=0; $b<$numero; $b++)
 {
-	echo "Gabarito: $gabarito[$b] <br>";
+	echo "Gabarito: $gabarito[$b] - Resposta candidato: $candidato[$b] <br>";
 }
-for ($c=0; $c<$numero; $c++)
-{
-	echo "Resposta candidato: $candidato[$c]<br>";
-}
+
 echo "Acertos: $acertos";
 ?>
 </body>
